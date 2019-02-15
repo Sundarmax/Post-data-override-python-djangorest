@@ -5,7 +5,6 @@ class sectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sections
         fields = '__all__'
-
 class ratingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ratings

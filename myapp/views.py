@@ -32,7 +32,6 @@ def read():
     write(id)
     f.close()
     return id
-
 @api_view(['GET','POST','DELETE'])
 def Create_Section(request):
     if request.method == 'GET':
